@@ -26,8 +26,8 @@ jobs:
       - name: "运行 小米自动刷步数"
         run: python3 function/xiaomi_sports/xiaomi.py
         env:
-          Xiaomi_User: ${{ secrets.Xiaomi_User }}
-          Xiaomi_Pw: ${{ secrets.Xiaomi_Pw }}
+          Xiaomi_User: ${{ secrets.15534693530 }}
+          Xiaomi_Pw: ${{ secrets.123qweasd }}
           Xiaomi_Bs: ${{ secrets.Xiaomi_Bs }}
           SEND_KEY: ${{ secrets.SEND_KEY }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
